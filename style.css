@@ -19,7 +19,14 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--neutral-clr-01);
+}
+main {
+  width: 636px;
 }
 .community {
   background-color: white;
